@@ -13,9 +13,9 @@ async-trait = { workspace = true }
 bit-vec = { workspace = true }
 indexmap = { workspace = true }
 log = { workspace = true }
-krata-xencall = { path = "../xencall", version = "^0.0.24" }
-krata-xenplatform = { path = "../xenplatform", version = "^0.0.24" }
-krata-xenstore = { path = "../xenstore", version = "^0.0.24" }
+krata-xencall = { path = "../xencall", version = "^0.0.25" }
+krata-xenplatform = { path = "../xenplatform", version = "^0.0.25" }
+krata-xenstore = { path = "../xenstore", version = "^0.0.25" }
 regex = { workspace = true }
 thiserror = { workspace = true }
 tokio = { workspace = true }

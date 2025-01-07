@@ -14,7 +14,7 @@ elf = { workspace = true }
 flate2 = { workspace = true }
 libc = { workspace = true }
 log = { workspace = true }
-krata-xencall = { path = "../xencall", version = "^0.0.24" }
+krata-xencall = { path = "../xencall", version = "^0.0.25" }
 memchr = { workspace = true }
 nix = { workspace = true }
 regex = { workspace = true }
