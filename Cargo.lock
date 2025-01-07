@@ -259,7 +259,7 @@ checksum = "7943c866cc5cd64cbc25b2e01621d07fa8eb2a1a23160ee81ce38704e97b8ecf"
 
 [[package]]
 name = "krata-xencall"
-version = "0.0.24"
+version = "0.0.25"
 dependencies = [
  "env_logger",
  "libc",
@@ -271,7 +271,7 @@ dependencies = [
 
 [[package]]
 name = "krata-xenclient"
-version = "0.0.24"
+version = "0.0.25"
 dependencies = [
  "async-trait",
  "bit-vec",
@@ -289,7 +289,7 @@ dependencies = [
 
 [[package]]
 name = "krata-xenevtchn"
-version = "0.0.24"
+version = "0.0.25"
 dependencies = [
  "byteorder",
  "libc",
@@ -301,7 +301,7 @@ dependencies = [
 
 [[package]]
 name = "krata-xengnt"
-version = "0.0.24"
+version = "0.0.25"
 dependencies = [
  "libc",
  "nix",
@@ -310,7 +310,7 @@ dependencies = [
 
 [[package]]
 name = "krata-xenplatform"
-version = "0.0.24"
+version = "0.0.25"
 dependencies = [
  "async-trait",
  "elf",
@@ -330,7 +330,7 @@ dependencies = [
 
 [[package]]
 name = "krata-xenstore"
-version = "0.0.24"
+version = "0.0.25"
 dependencies = [
  "byteorder",
  "env_logger",
