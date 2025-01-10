@@ -29,15 +29,15 @@ memchr = "2"
 nix = "0.29.0"
 regex = "1.11.1"
 slice-copy = "0.3.0"
-thiserror = "2.0.9"
+thiserror = "2.0.10"
 xz2 = "0.1"
 
 [workspace.dependencies.tokio]
-version = "1.41.1"
+version = "1.43.0"
 features = ["full"]
 
 [workspace.dependencies.uuid]
-version = "1.11.0"
+version = "1.11.1"
 features = ["v4"]
 
 [profile.release]
