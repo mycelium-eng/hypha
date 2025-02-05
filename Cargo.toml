@@ -16,28 +16,28 @@ license = "GPL-2.0-or-later"
 repository = "https://github.com/edera-dev/krata"
 
 [workspace.dependencies]
-async-trait = "0.1.85"
+async-trait = "0.1.86"
 bit-vec = "0.8.0"
 byteorder = "1"
 elf = "0.7.4"
 env_logger = "0.11.6"
 flate2 = "1.0"
-indexmap = "2.6.0"
+indexmap = "2.7.1"
 libc = "0.2"
-log = "0.4.22"
+log = "0.4.25"
 memchr = "2"
 nix = "0.29.0"
 regex = "1.11.1"
 slice-copy = "0.3.0"
-thiserror = "2.0.9"
+thiserror = "2.0.11"
 xz2 = "0.1"
 
 [workspace.dependencies.tokio]
-version = "1.41.1"
+version = "1.43.0"
 features = ["full"]
 
 [workspace.dependencies.uuid]
-version = "1.11.0"
+version = "1.13.1"
 features = ["v4"]
 
 [profile.release]
