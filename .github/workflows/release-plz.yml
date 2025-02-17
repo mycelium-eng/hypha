@@ -15,11 +15,11 @@ jobs:
       contents: write
     steps:
     - name: harden runner
-      uses: step-security/harden-runner@0080882f6c36860b6ba35c610c98ce87d4e2f26f # v2.10.2
+      uses: step-security/harden-runner@4d991eb9b905ef189e4c376166672c3f2f230481 # v2.11.0
       with:
         egress-policy: audit
     - name: generate cultivator token
-      uses: actions/create-github-app-token@5d869da34e18e7287c1daad50e0b8ea0f506ce69 # v1.11.0
+      uses: actions/create-github-app-token@0d564482f06ca65fa9e77e2510873638c82206f2 # v1.11.5
       id: generate-token
       with:
         app-id: "${{ secrets.EDERA_CULTIVATION_APP_ID }}"
@@ -37,7 +37,7 @@ jobs:
     - name: install linux dependencies
       run: ./hack/ci/install-linux-deps.sh
     - name: release-plz
-      uses: MarcoIeni/release-plz-action@db75300cf27adcd986d6f0cf4a72a4ffcc11dae5 # v0.5.86
+      uses: MarcoIeni/release-plz-action@36d2dcf6a250ff9c4dfd2984e988d79ea67a4c6a # v0.5.94
       env:
         GITHUB_TOKEN: "${{ steps.generate-token.outputs.token }}"
         CARGO_REGISTRY_TOKEN: "${{ secrets.KRATA_RELEASE_CARGO_TOKEN }}"
